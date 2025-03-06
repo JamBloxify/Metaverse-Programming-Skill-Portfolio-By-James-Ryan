@@ -1,0 +1,129 @@
+p{
+    font-weight:700;
+    text-align: center;
+    color: rgb(239, 167, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#start {
+    color:#fb7035;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+ol{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    background-color: #000000;
+}
+
+.header{
+    background-color: rgb(167, 167, 167);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: #0a5314;
+    border-radius: 10px;
+}
+
+.leaf{
+    position:absolute;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+}
+
+.image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(71, 71, 71, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+  }
+
+.container2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(99, 99, 99);
+    width: 100%;
+    font-size: large;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+#next{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #aed048;
+    text-align: center;
+}
+
+#final{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0d5353;
+    text-align: center;
+}
+
+.container3 {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+
+video{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#end{
+    position: absolute;
+    left: 300px;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.image1{
+    border-radius: 10px;
+    height: 500px;
+}

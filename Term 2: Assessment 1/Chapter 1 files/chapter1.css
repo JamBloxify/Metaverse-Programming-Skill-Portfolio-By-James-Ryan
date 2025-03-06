@@ -25,7 +25,7 @@ ol{
 
 
 body{
-    background-color: #000000;
+    background: linear-gradient(135deg, #000000, #454545);
 }
 
 .header{

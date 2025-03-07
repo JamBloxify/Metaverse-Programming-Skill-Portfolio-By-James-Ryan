@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(200deg, #480000, #002648);
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.welcome{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    background: linear-gradient(270deg, #ff0000, #0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.five{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500px;
+    background: linear-gradient(360deg, #ffffff, #515151);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button{
+    color: #ffffff;
+}
+
+.button:link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover{
+    color:#ffffff;
+    text-decoration: underline;
+    background-color: #000000;
+}
+
+footer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(360deg, #260401, #030120);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.plot{
+    color: white;
+    text-decoration: none;
+}
+
+.plot:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.info{
+    color: white;
+    text-decoration: none;
+}
+
+.info:hover{
+    text-decoration: underline;
+    color: #BF0040;
+}
+
+.cast{
+    color: white;
+    text-decoration: none;
+}
+
+.cast:hover{
+    text-decoration: underline;
+    color: #800080;
+}
+
+.char{
+    color: white;
+    text-decoration: none;
+}
+
+.char:hover{
+    text-decoration: underline;
+    color: #4000BF;
+}
+
+.review{
+    color: white;
+    text-decoration: none;
+}
+
+.review:hover{
+    text-decoration: underline;
+    color: #0000FF;
+}

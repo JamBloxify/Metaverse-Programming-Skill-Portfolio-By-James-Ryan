@@ -1,0 +1,96 @@
+body{
+    background-color: #13011b;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    color: #800080;
+}
+
+p{
+    font-size: 75px;
+    color: #ba00ba;
+}
+
+
+.button{
+    color: #ffffff;
+}
+
+.button:link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 30px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover{
+    color:#000000;
+    text-decoration: underline;
+    background-color: #ffffff;
+}
+
+footer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(360deg, #260401, #030120);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.plot{
+    color: white;
+    text-decoration: none;
+}
+
+.plot:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.info{
+    color: white;
+    text-decoration: none;
+}
+
+.info:hover{
+    text-decoration: underline;
+    color: #BF0040;
+}
+
+.cast{
+    text-decoration: underline;
+    color: #800080;
+}
+
+.char{
+    color: white;
+    text-decoration: none;
+}
+
+.char:hover{
+    text-decoration: underline;
+    color: #4000BF;
+}
+
+.review{
+    color: white;
+    text-decoration: none;
+}
+
+.review:hover{
+    text-decoration: underline;
+    color: #0000FF;
+}

@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(0deg, #480000, #140404);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+
+p{
+    color: red;
+    font-size: large;
+}
+
+footer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(360deg, #260401, #030120);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.plot{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.info{
+    color: white;
+    text-decoration: none;
+}
+
+.info:hover{
+    text-decoration: underline;
+    color: #BF0040;
+}
+
+.cast{
+    color: white;
+    text-decoration: none;
+}
+
+.cast:hover{
+    text-decoration: underline;
+    color: #800080;
+}
+
+.char{
+    color: white;
+    text-decoration: none;
+}
+
+.char:hover{
+    text-decoration: underline;
+    color: #4000BF;
+}
+
+.review{
+    color: white;
+    text-decoration: none;
+}
+
+.review:hover{
+    text-decoration: underline;
+    color: #0000FF;
+}

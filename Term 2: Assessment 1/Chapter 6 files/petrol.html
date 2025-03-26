@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="petrol.css" type="text/css">
+    <script src = "petrol.js" type = "text/javascript"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container"> <!--Container to put everything together-->
+        <h1>PETROL CALCULATOR</h1>
+        
+        <div>
+            <label>Cost per liter ($):</label>
+            <input id="cost" type="number" value="1.72" step="0.01" min="0"> <!--This has an id in order to change properties and give it a behaviour. It also has the starting value, and the steps at which the intervals move, and a minimum of 0 input-->
+        </div>
+        
+        <div>
+            <label>Liters purchased:</label>
+            <input id="liters" type="number" value="0" step="0.1" min="0">
+        </div>
+        
+        <button onclick="calculate()">Calculate Total</button> <!--A button where on click, it will call the custom java function-->
+        
+        <p id="result">Total: $0.00</p><!--This displays the result-->
+    </div>
+</body>
+</html>
